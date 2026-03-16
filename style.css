@@ -1,0 +1,36 @@
+
+body{
+font-family: "Microsoft JhengHei", sans-serif;
+margin:0;
+background:#f2f6ff;
+text-align:center;
+}
+
+header{
+background:#4CAF50;
+color:white;
+padding:20px;
+}
+
+.logo{
+width:80px;
+}
+
+main{
+padding:40px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+padding:10px;
+position:fixed;
+bottom:0;
+width:100%;
+}
