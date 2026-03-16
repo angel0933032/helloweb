@@ -3,10 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的第一個 GitHub 網站</title>
+  <title>我的個人網站</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>成功了！</h1>
-  <p>這是我放在 GitHub Pages 的第一個網站。</p>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">My Web</div>
+      <ul class="nav-links">
+        <li><a href="#about">關於我</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#projects">作品</a></li>
+        <li><a href="#contact">聯絡我</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1>你好，我是 Angel</h1>
+      <p>歡迎來到我的個人網站，我正在學習網頁設計與 GitHub Pages。</p>
+      <button id="helloBtn">點我打招呼</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>關於我</h2>
+      <p>
+        我正在練習建立自己的網站，學習 HTML、CSS、JavaScript，
+        希望未來能做出屬於自己的作品與專案。
+      </p>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+      <h2>我的技能</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>建立網站的基本結構。</p>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p>讓網站變得更漂亮、更有版面感。</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p>加入互動效果，讓網頁更有生命力。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>作品展示</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>作品一</h3>
+          <p>這裡可以放你的網站、作業或練習作品介紹。</p>
+        </div>
+        <div class="card">
+          <h3>作品二</h3>
+          <p>之後你可以把 Python、小遊戲或網頁作品放進來。</p>
+        </div>
+        <div class="card">
+          <h3>作品三</h3>
+          <p>也可以放未來想完成的計畫與目標。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt-bg">
+      <h2>聯絡我</h2>
+      <p>Email：yourmail@example.com</p>
+      <p>你也可以把這裡改成你的社群連結或作品集網址。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 我的個人網站 | GitHub Pages 練習作品</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
