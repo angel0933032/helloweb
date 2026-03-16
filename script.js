@@ -1,4 +1,5 @@
+const helloBtn = document.getElementById("helloBtn");
 
-document.getElementById("btn").addEventListener("click",function(){
-document.getElementById("msg").innerText="Hello！你成功執行 JavaScript 🎉";
+helloBtn.addEventListener("click", function () {
+  alert("你好，歡迎來到我的個人網站！");
 });
